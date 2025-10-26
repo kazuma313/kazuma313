@@ -41,8 +41,16 @@ My focus is on **developing AI agents, integrating large language models, and de
 ### 📊 GitHub Stats  
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kurnia313&show_icons=true&theme=tokyonight" alt="GitHub Stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kurnia313&layout=compact&theme=tokyonight" alt="Top Languages" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api?username=kazuma313&show_icons=true&theme=tokyonight" alt="GitHub Stats" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kazuma313&layout=compact&theme=tokyonight" alt="Top Languages" height="165" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kazuma313&theme=tokyo-night&area=true&hide_border=true" alt="GitHub Activity Graph" />
+</p>
+
+<p align="center">
+  <sub>⚙️ Consistently contributing to AI, backend, and open-source projects — continuously improving through hands-on experimentation and development.</sub>
 </p>
 
 ---
@@ -72,7 +80,7 @@ My focus is on **developing AI agents, integrating large language models, and de
 ### 💬 Let’s Connect  
 
 <p align="left">
-  <a href="https://www.linkedin.com/in/kurnia313/">
+  <a href="www.linkedin.com/in/kurnia-zulda">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white" />
   </a>
   <a href="mailto:kurniazuldam@gmail.com">
