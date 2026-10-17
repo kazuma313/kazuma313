@@ -1,94 +1,46 @@
-# 👋 Hi, I'm Kurnia  
+# Kurnia Zulda Matondang
 
-I'm an **AI Engineer** passionate about building **real-world AI applications** that empower organizations to adopt intelligent solutions.  
-My focus is on **developing AI agents, integrating large language models, and deploying scalable backend systems** using modern frameworks and best practices.
+**AI Engineer in Jakarta, building in public.** I build RAG systems, LLM agents, and computer-vision pipelines, and I turn what I learn into small tools I can reuse.
 
----
+I care about the parts that decide whether an AI feature survives contact with users: measuring retrieval quality, tracking latency and cost, and keeping the code easy to change.
 
-### 🧠 About Me  
+## My public project: Zul
 
-- 💡 Experienced in **AI system design**, from data processing to deployment  
-- 🧩 Skilled in **backend development** with **Python**, **FastAPI**, and **MongoDB**  
-- ⚙️ Currently developing **AI agents** using **LangChain** and **LangGraph** to enable reasoning, automation, and adaptive workflows  
-- 🤝 I help companies **explore the possibilities of AI** by building **functional prototypes and production-ready solutions**  
-- 🌍 Passionate about **AI for real-world impact**, with interests in **NLP**, **Computer Vision**, and **autonomous decision systems**
+[**Zul**](https://github.com/kazuma313/zul_utilities) (site: [zulkit.my.id](https://zulkit.my.id)) is where I focus. It is an open-source (MIT) toolkit for AI and data applications in Python, and it is also the one place where everything I do in public lives: the code, the documentation, the blog, my experiments, and my practice. The writing is in Indonesian.
 
----
+### The toolkit
 
-### 🔧 Tech Stack  
+| Part | What it does |
+|---|---|
+| **Adapter layer** | Wraps LangChain, OpenCV, RF-DETR, Docling, pymilvus, redisvl, and ragas as small composable functions. Each library is imported in exactly one file, and a test enforces it, so swapping or pinning a library is a one-file change. |
+| **Retrieval evaluation** | Measures a retriever with ragas: dataset loading, indexing into Milvus, dense and hybrid retrievers, LLM-as-judge scoring, hit rates, latency percentiles, and Excel reports. |
+| **MCP server for code assistants** | Gives Claude Code and similar assistants read-only tools (docs search, module guides, source, runnable examples, a style checker) so the code they write for Zul follows its conventions. |
+| **Computer-vision boilerplate** | A complete app starter for camera analytics: RF-DETR detection, my own ByteTrack, per-camera YAML config, line counting, zone and dwell timers, Docker, and tests with a fake detector. |
+| **Agent skill pool** | Reusable skills and utilities for learning and research workflows, such as syllabus building and reading material with any vision or OCR model. |
 
-#### 🐍 Programming & Frameworks
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1B1B1B?logo=chainlink&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-4B8BBE?logo=graph&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
+The test suite has more than 600 tests, and GitHub Actions builds and deploys the docs on every docs change.
 
-#### 🗄️ Databases
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=white)
+### Where to find the rest
 
-#### 🧩 Tools & Platforms
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=github-actions&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
-![VSCode](https://img.shields.io/badge/VSCode-007ACC?logo=visual-studio-code&logoColor=white)
+| I want to see... | Go to |
+|---|---|
+| Tutorials, how-to guides, reference, and concepts | [zulkit.my.id](https://zulkit.my.id) |
+| What I write about and learn | [Blog](https://zulkit.my.id/blog/) |
+| Side-by-side comparisons I ran (retrieval evaluation, contextual retrieval, file readers, learning skills) | [`framework/studies`](https://github.com/kazuma313/zul_utilities/tree/main/framework/studies) |
+| Algorithm and fundamentals practice written by hand (sorting, string algorithms, probability simulation, stress tests, Python object model) | [`research/latihan`](https://github.com/kazuma313/zul_utilities/tree/main/research/latihan) |
+| Small standalone projects | [`research/proyek`](https://github.com/kazuma313/zul_utilities/tree/main/research/proyek) |
 
----
+## What I work with
 
-### 📊 GitHub Stats  
+| Area | Tools |
+|---|---|
+| LLMs and agents | LangChain, LangGraph, tool calling, LoRA and QLoRA fine-tuning |
+| Retrieval | Hybrid search (BM25 plus dense vectors), Milvus, Elasticsearch, Redis semantic cache, multilingual embeddings, reranking |
+| Serving and observability | vLLM, SGLang, LiteLLM, Langfuse, FastAPI, Docker, GitHub Actions |
+| Evaluation | Ragas, LLM-as-judge, latency tracking (P50, P95, P99) |
+| Computer vision | YOLO and RF-DETR, tracking, OCR, edge deployment, OpenCV |
+| Backend | Python, FastAPI, PostgreSQL, MongoDB, hexagonal architecture |
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kazuma313&show_icons=true&theme=tokyonight" alt="GitHub Stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kazuma313&layout=compact&theme=tokyonight" alt="Top Languages" height="165" />
-</p>
+## Contact
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kazuma313&theme=tokyo-night&area=true&hide_border=true" alt="GitHub Activity Graph" />
-</p>
-
-<p align="center">
-  <sub>⚙️ Consistently contributing to AI, backend, and open-source projects — continuously improving through hands-on experimentation and development.</sub>
-</p>
-
-
----
-
-### 🌟 More About Me  
-
-- 🔭 I’m currently working on **developing AI agents using LangGraph and LangChain**, integrating reasoning and adaptive task automation.  
-- 🌱 I’m currently learning **RAG optimization**, **vector databases**, and **LLM orchestration techniques**.  
-- 👯 I’m looking to collaborate on **AI-driven backend systems**, **FastAPI-based tools**, or **agentic AI experiments**.  
-- 🤔 I’m looking for help with **advanced model evaluation frameworks** and **scalable deployment for AI agents**.  
-- 💬 Ask me about **FastAPI**, **AI agent architecture**, or **how to integrate LLMs into production environments**.  
-- 📫 How to reach me: [LinkedIn](https://www.linkedin.com/in/kurnia313/) or email me at `kurnia313@example.com`  
-- 😄 Pronouns: He/Him  
-- ⚡ Fun fact: I started my tech journey in 2018 not knowing how to use a computer — now I build intelligent systems for the future. 🚀  
-
----
-
-### 🚀 What I’m Working On  
-
-- 🤖 Building **autonomous AI agents** with **LangGraph** and **LLM integration**  
-- 🔧 Creating **robust API backends** for AI-driven applications  
-- 🧪 Experimenting with **AI model optimization**, **vector databases**, and **retrieval-augmented generation (RAG)**  
-- 💭 Exploring **efficient AI deployment pipelines** using **Docker**, **FastAPI**, and **cloud environments**
-
----
-
-### 💬 Let’s Connect  
-
-<p align="left">
-  <a href="www.linkedin.com/in/kurnia-zulda">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white" />
-  </a>
-  <a href="mailto:kurniazuldam@gmail.com">
-    <img src="https://img.shields.io/badge/Email-0078D4?logo=gmail&logoColor=white" />
-  </a>
-</p>
-
----
-
-> *"Building intelligent systems starts with curiosity, experimentation, and the courage to turn ideas into reality."*
+[Website](https://zulkit.my.id) · [LinkedIn](https://linkedin.com/in/kurnia-zulda) · [Email](mailto:kurniazuldam@gmail.com)
